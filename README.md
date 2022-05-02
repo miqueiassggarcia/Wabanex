@@ -1,19 +1,26 @@
 # Wabanex
 
-To start your Phoenix server:
+## ⚡ Tecnologias usadas
+<div style="display: inline_block">
+  <a href="https://devicon.dev" target="_blank"><img align="center" alt="ELIXIR" height="40" width="50" src="https://github.com/miqueiassggarcia/miqueiassggarcia/blob/main/Icons/elixir-original-wordmark.svg" /></a>
+	<a href="https://devicon.dev" target="_blank"><img align="center" alt="PHOENIX" height="40" width="50" src="https://github.com/miqueiassggarcia/miqueiassggarcia/blob/main/Icons/phoenix-original-wordmark.svg" /></a>
+  <br><br>
+</div>
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+### Iniciar aplicação:
+* Os requisitos para iniciar a aplicação é ter o elixir instalado na máquina, que pode ser instalado [aqui](https://elixir-lang.org/install.html).
+* Também será necessário instalar o bando de dados que nesse caso foi utilizado o postgres, que pode ser instalado [aqui](https://www.postgresql.org/download/)
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Já com o elixir e erlang instalado, entre no diretório do projeto pelo terminal dê os seguintes comandos:
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+* ``mix deps.get`` para instalar as dependências do projeto.
 
-## Learn more
+* ``mix ecto.setup`` para criar e migrar seu bando de dados.
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+* ``mix phx.server`` para iniciar a aplicação.
+
+Você pode abrir a aplicação no [`localhost:4000`](http://localhost:4000) via navegador.
+
+Projeto inicializado com ``mix phx.new project --no-html --no-assets`` [Create phoenix project](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.New.html).
+
+### Projeto desenvolvido na next level week together
